@@ -10,9 +10,9 @@ This is a simple calculator application built using Node.js and Express.js. It p
 4. Install the dependencies by running the following command:
 
    ```shell
- git clone " "
- cd   
- npm install
+   git clone https://github.com/karthick-dkk/simple-calculator
+   cd simple-calculator
+   npm install
    ```
 
 ## Usage
@@ -23,18 +23,18 @@ This is a simple calculator application built using Node.js and Express.js. It p
    node node.js
    ```
 
-   The server will be active on port 3000.
+   The server will be active on port 4000.
 
-2. Open your web browser and visit [http://localhost:3000](http://localhost:3000) to access the calculator.
+2. Open your web browser and visit [http://localhost:4000](http://localhost:4000) to access the calculator.
 
 3. Calculator Page:
    - Enter two numbers in the input fields.
    - Select an operation from the dropdown menu.
-   - Click the "Calculate" button to perform the operation.
+   - Click the "Calculate" button to operate.
    - The result will be displayed on the page.
 
 4. BMI Calculator Page:
-   - Visit [http://localhost:3000/bmi](http://localhost:3000/bmi) to access the BMI calculator.
+   - Visit [http://localhost:4000/bmi](http://localhost:4000/bmi) to access the BMI calculator.
    - Enter your height and weight in the provided input fields.
    - Click the "Calculate BMI" button.
    - The calculated BMI will be displayed on the page.
