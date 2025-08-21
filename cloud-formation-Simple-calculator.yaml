@@ -39,7 +39,7 @@ Resources:
           systemctl enable nginx
 
           apt install git npm -y
-          cd /home/ubuntu
+          mkdir /root/ && cd /root/
           git clone https://github.com/karthick-dkk/simple-calculator.git 
           cd simple-calculator
           npm install
@@ -70,3 +70,4 @@ Outputs:
   EC2PublicIP:
     Description: "Public IP address of the EC2 instance"
     Value: !GetAtt EC2Instance.PublicIp
+
